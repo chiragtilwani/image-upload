@@ -1,4 +1,6 @@
- function handleImageChange(evt) {
+//this code checks the extension of input file (png,jpeg,jpg) and type of file is appropiate it create url for it
+
+function handleImageChange(evt) {
     setIsLoading(true)
     toggleIsImgSelected();
     const fileName = evt.target.files[0].name
